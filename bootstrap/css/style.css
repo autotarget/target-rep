@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&display=swap'); */
+
+body {
+    background: grey;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 30px;
+    color: #555;
+    padding: 0;
+    margin: 0;
+    /* ~webkit-font-smoothing: antialiased;
+    ~webkit-overflow-scrolling: touch; */
+}
+p {
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ralway";
+    font-weight: 300;
+    color: #333333;
+}
+.centered {
+    text-align: center;
+}
+a {
+    color: #f85c37;
+    text-decoration: none;
+}
+a:hover, a:focus {
+color: red;
+text-decoration: none;
+outline: 0;
+}
+.navbar {
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em o;
+    padding: 0;
+}
